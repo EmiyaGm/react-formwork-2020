@@ -26,3 +26,6 @@ mobx 5.15.*
 
 mobx-state-tree 3.15.*
 
+less 3.11.*
+
+antd 4.0.*

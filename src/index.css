@@ -1,8 +1,14 @@
-body {
+@font-face {
+  font-family: 'PF SC NUM';
+  src: url('./assets/fonts/PingFang-SC-Regular.ttf');
+}
+
+:global(body) {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  user-select: none;
+  font-family: 'PF SC NUM', 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

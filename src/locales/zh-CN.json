@@ -1,0 +1,6 @@
+{
+  "TEST": "测试",
+  "REQUEST_SUCCESS": "请求成功",
+  "REQUEST_ERROR": "请求出错",
+  "REQUEST_CANCELLED": "请求被取消"
+}
