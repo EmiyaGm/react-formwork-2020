@@ -1,0 +1,11 @@
+body {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --blue-color: #4e87ff;
+  --green-color: #41b37d;
+  --red-color: #d74e5a;
+  --grey-color: #f0f2f5;
+  --darker-grey-color: #bfbfbf;
+
+  --radio-sub-title-color: #00000073;
+}
