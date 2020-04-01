@@ -1,0 +1,17 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+:global(.ant-spin-nested-loading > div > .ant-spin).spin {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.container > :global(.ant-spin-nested-loading > .ant-spin-container) {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+}

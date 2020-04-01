@@ -2,7 +2,13 @@ import React from 'react'
 import Loadable from 'react-loadable'
 import NProgress from 'nprogress'
 
-import { Loading } from 'Components'
+// import { Loading } from 'Components'
+
+const loadingComponent =()=>{
+  return (
+      <div>loading</div>
+  ) 
+}
 
 function LoadableComponent({ loader, options = {}, nextProps = {} }) {
   return Loadable({
@@ -20,7 +26,7 @@ function LoadableComponent({ loader, options = {}, nextProps = {} }) {
           throw new Error('Component can not be found.')
         })
     },
-    loading: <div>loading</div>,
+    loading: loadingComponent,
     timeout: 10000,
     render(loaded, props) {
       const Component = loaded.default
